@@ -78,7 +78,7 @@ class MainApp extends React.Component {
                             <NavDropdown title="Texture" id="collasible-nav-dropdown" className="ml-4 button">
                                 <NavDropdown.Item className={this.state.surface === "lava" ? "active" : ""} onClick={() => { this.setState({ surface: "lava" }) }}>lava</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.surface === "sunflower" ? "active" : ""} onClick={() => { this.setState({ surface: "sunflower" }) }}>sunflower</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.surface === "point" ? "active" : ""} onClick={() => { this.setState({ surface: "standard" }) }}>standard</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.surface === "standard" ? "active" : ""} onClick={() => { this.setState({ surface: "standard" }) }}>standard</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.surface === "blocks ambient occlusion" ? "active" : ""} onClick={() => { this.setState({ surface: "blocks ambient occlusion" }) }}>blocks ambient occlusion</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.surface === "blocksBump" ? "active" : ""} onClick={() => { this.setState({ surface: "blocksBump" }) }}>blocks bump</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.surface === "sands" ? "active" : ""} onClick={() => { this.setState({ surface: "sands" }) }}>sands</NavDropdown.Item>
