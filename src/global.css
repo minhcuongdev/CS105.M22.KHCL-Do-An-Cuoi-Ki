@@ -23,10 +23,13 @@ body {
   
 }
 
+.react-dat-gui {
+
+}
+
 .react-dat-gui-relative-position {
-  position: absolute;
-  /* margin-top: 5em; */
-  width: 300px;
+  position: absolute !important;
+  width: 300px !important;
   min-width: 300px;
   right: 0;
 }
