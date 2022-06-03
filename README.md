@@ -20,7 +20,6 @@ npm i
 npm start
 ```
 ### Resource
-1. Demo:
-
+1. Link Demo: [Demo](https://cs-105-m22-khcl-do-an-cuoi-ki.vercel.app/)
 2. Tài liệu:
 [ThreeJS Website](https://threejs.org/)
