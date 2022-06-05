@@ -58,17 +58,17 @@ class MainApp extends React.Component {
 
                             <NavDropdown title="Geometry" id="collasible-nav-dropdown" className="ml-4 button">
                                 <NavDropdown.Item className={this.state.geometry === "Hình hộp" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình hộp" }) }}>Hình hộp</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Khối cầu" ? "active" : ""} onClick={() => { this.setState({ geometry: "Khối cầu" }) }}>Khối cầu</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Khối Nón" ? "active" : ""} onClick={() => { this.setState({ geometry: "Khối Nón" }) }}>Khối Nón</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Hình khối" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối" }) }}>Hình khối</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Hình khuyến" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khuyến" }) }}>Hình khuyến</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Nút thắt hình xuyến" ? "active" : ""} onClick={() => { this.setState({ geometry: "Nút thắt hình xuyến" }) }}>Nút thắt hình xuyến</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Khối cầu" ? "active" : ""} onClick={() => { this.setState({ geometry: "Khối cầu" }) }}>Hình cầu</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Khối Nón" ? "active" : ""} onClick={() => { this.setState({ geometry: "Khối Nón" }) }}>Hình nón</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Hình khối" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối" }) }}>Hình trụ</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Hình khuyến" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khuyến" }) }}>Hình khuyên</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Nút thắt hình xuyến" ? "active" : ""} onClick={() => { this.setState({ geometry: "Nút thắt hình xuyến" }) }}>Hình nút thắt</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.geometry === "Hình ống" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình ống" }) }}>Hình ống</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.geometry === "Hình ấm trà" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình ấm trà" }) }}>Hình ấm trà</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.geometry === "Hình tứ diện" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình tứ diện" }) }}>Hình tứ diện</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.geometry === "Hình khối 8 mặt" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối 8 mặt" }) }}>Hình khối 8 mặt</NavDropdown.Item>
                                 <NavDropdown.Item className={this.state.geometry === "Hình khối 12 mặt ngũ giác" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối 12 mặt ngũ giác" }) }}>Hình khối 12 mặt ngũ giác</NavDropdown.Item>
-                                <NavDropdown.Item className={this.state.geometry === "Hình khối hai mươi mặt" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối hai mươi mặt" }) }}>Hình khối hai mươi mặt</NavDropdown.Item>
+                                <NavDropdown.Item className={this.state.geometry === "Hình khối hai mươi mặt" ? "active" : ""} onClick={() => { this.setState({ geometry: "Hình khối hai mươi mặt" }) }}>Hình khối 20 mặt</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Drawing" id="collasible-nav-dropdown" className="ml-4 button">
                                 <NavDropdown.Item className={this.state.surface === "point" ? "active" : ""} onClick={() => { this.setState({ surface: "point" }) }}>point</NavDropdown.Item>
